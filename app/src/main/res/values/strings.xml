@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Covi Help</string>
+    <string name="covihelp">CoviHelp</string>
+
+    <string name="admob_application_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ads_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="about_line_one">This app built for providing all live information of resources of covid-19.</string>
+    <string name="line1">दो गिलास पानी उबालें और दो बड़े चम्मच त्रिकटु चूर्ण (सूखे अदरक पाउडर, काली मिर्च पाउडर और लंबी काली मिर्च पाउडर का मिश्रण 1: 1: 1) के अनुपात में डालें। मिश्रण को आधा होने तक उबालें। इसमें तुलसी के पत्ते और ताड़ का गुड़ मिलाएं।</string>
+    <string name="headLine">कोरोनावायरस: हल्के COVID के लिए आयुर्वेदिक घरेलू उपचार</string>
+    <string name="line2">यदि आपको कंजेशन है, तो अपने भोजन करने से पहले दिन में दो बार इस हर्बल काढ़े का सेवन करें:</string>
+    <string name="line4">पानी में कैरम सीड्स (अज्वैन), पुदीने की पत्तियां या नीलगिरी का तेल मिलाएं और दिन में एक बार इस कॉनकोशन का इस्तेमाल करके स्टीम इनहेलेशन करें।</string>
+    <string name="line3">गर्म पानी में एक चुटकी नमक और हल्दी मिलाकर त्रिफला और यष्टिमधु  के साथ पानी उबालें। दैनिक रूप से एक या दो बार गार्निश करने के लिए इस  का उपयोग करें।</string>
+    <string name="line5">अश्वगंधा रोगाणुरोधी गुणों के साथ एक शक्तिशाली जड़ी बूटी है और अर्क और पाउडर दोनों के रूप में उपलब्ध है। 500mg अर्क या 1-3 ग्राम पाउडर लें, इसे गर्म पानी में मिलाएं और 15 दिनों से लेकर एक महीने तक रोजाना दो बार सेवन करें।</string>
+    <string name="line6">तिल के तेल, नारियल का तेल, गाय का घी या औषधीय तेल अपने नथुने में लगाएँ, खासकर बाहर जाने से पहले और घर वापस आने के बाद।</string>
+    <string name="line7">हर रात छह से आठ घंटे की नींद लें, रोजाना हल्के व्यायाम करें और स्वस्थ और संतुलित आहार का पालन करें। अपने आहार में अदरक, जीरा, धनिया और पवित्र तुलसी जैसे जड़ी बूटियों और मसालों को शामिल करें।</string>
+    <string name="desCovi">Please enter description like oxygen and other covid related resources is available or not</string>
+</resources>

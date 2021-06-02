@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="3dp"
+    android:background="#009ACD"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        android:padding="20dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.4"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:background="@color/white"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_weight="1.7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtHospitalName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="hospital Name"
+                    android:textColor="#009ACD"
+                    android:textSize="13sp"
+                    tools:layout_editor_absoluteX="50dp"
+                    tools:layout_editor_absoluteY="96dp" />
+              <LinearLayout
+                  android:weightSum="2"
+                  android:layout_marginTop="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:id="@+id/txtState"
+                      android:layout_marginTop="3dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:text="STATE"
+                      android:textStyle="bold"
+                      android:textColor="#008080"
+                      android:textSize="12sp"
+                      tools:layout_editor_absoluteX="221dp"
+                      tools:layout_editor_absoluteY="26dp" />
+
+                  <TextView
+                      android:id="@+id/txtPincode"
+                      android:layout_width="62dp"
+                      android:layout_height="16dp"
+                      android:layout_marginTop="3dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:text="110045"
+                      android:textColor="#008080"
+                      android:textSize="12sp"
+                      tools:layout_editor_absoluteX="105dp"
+                      tools:layout_editor_absoluteY="40dp" />
+              </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verified Date Time"
+                    android:textStyle="bold"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:background="@drawable/txt_btn_back"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    tools:layout_editor_absoluteX="36dp"
+                    tools:layout_editor_absoluteY="68dp" />
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APR 28 2021"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#008080"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="36dp"
+                    tools:layout_editor_absoluteY="68dp" />
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="12:8"
+                    android:textColor="#008080"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="204dp"
+                    tools:layout_editor_absoluteY="102dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8750089785"
+                    android:textColor="#008080"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="204dp"
+                    tools:layout_editor_absoluteY="102dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    <TextView
+        android:id="@+id/txtDes"
+        android:layout_weight=".6"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="oxygen and beds are available  "
+        android:layout_width="match_parent"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="#008080"
+        android:layout_height="42dp"/>
+
+</LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_whatsapp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardCall"
+        app:layout_constraintEnd_toEndOf="@+id/cardCall"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardCall"
+        app:layout_constraintVertical_bias="0.55" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
